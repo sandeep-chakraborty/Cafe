@@ -1,0 +1,75 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #cdcfc1;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.head {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.left-div,
+.right-div {
+  width: 50%;
+  height: 100%;
+}
+
+.left-div {
+  padding: 50px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
+  justify-content: center;
+  position: relative;
+  bottom: 70px;
+}
+
+.word {
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.right-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    height: 80vh;
+    width: 600px;
+    border: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    color: rgb(47, 47, 47);
+   
+}
+.inner-cards {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius:10px ;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
